@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  --main-background: rgb(43, 43, 43);
+  --main-font-color: rgb(240, 240, 240);
+  --main-border-color: rgb(83, 83, 83);
+  --second-background: rgb(57, 57, 57);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: var(--main-font-color);
+  font-family: Montserrat, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
