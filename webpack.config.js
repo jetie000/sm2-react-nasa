@@ -4,9 +4,6 @@ const path = require('path');
 
 const deps = require("./package.json").dependencies;
 module.exports = (_, argv) => ({
-  output: {
-    publicPath: "http://localhost:8080/",
-  },
 
   resolve: {
     alias: {
